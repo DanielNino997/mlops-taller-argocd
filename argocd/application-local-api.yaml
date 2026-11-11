@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<ORG_O_USUARIO>/<REPO>.git
+    repoURL: https://github.com/DanielNino997/mlops-taller-argocd.git
     targetRevision: main
-    path: Niveles/4/argo/gitops-api-base/manifests/api
+    path: manifests/api
   destination:
     server: https://kubernetes.default.svc
     namespace: mlops-api
